@@ -1,0 +1,46 @@
+paper_id,title,source_url,source_anchor
+arXiv:2509.08713v2,"The More You Automate, the Less You See",https://arxiv.org/abs/2509.08713v2,Tables 9; public repository commit 2725bda6740ac5c788e3283ad74028d6c660f316
+arXiv:2608.16977v1,The Problem Is the Problem: Towards Scalable Mathematical Discovery,https://arxiv.org/abs/2608.16977v1,arXiv:2608.16977v1 Sections 3-4; repository commit 0f498a7e9252affd478cbfe324f51ea6d0119331
+arXiv:2606.23175v1,"Correct Answer, Wrong Mechanism",https://arxiv.org/abs/2606.23175v1,Abstract; Sections 4 and 7; Appendix E; https://github.com/seulig/g4_agent_icml_2026
+arXiv:2605.10246v2,SciIntegrity-Bench,https://arxiv.org/abs/2605.10246v2,Abstract; released data https://github.com/liuxingtong/Sci-Integrity-Bench
+arXiv:2502.16487v3,All That Glitters is Not Novel,https://arxiv.org/abs/2502.16487v3,Abstract; Sections 3 and 5; https://github.com/tarun360/AI-Papers-Plagiarism
+arXiv:2502.14297v3,Evaluating Sakana's AI Scientist,https://arxiv.org/abs/2502.14297v3,Abstract; Sections 2.3-2.6; Table 1; public reproduction repository linked in paper
+arXiv:2604.18805v1,AI scientists produce results without reasoning scientifically,https://arxiv.org/abs/2604.18805v1,Sections 4.5 and 4.8; Figure 4; Appendix H; Hugging Face Corral collection
+arXiv:2310.03302v4,MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation,https://arxiv.org/abs/2310.03302v4,Table 3; Sections 2.2 and 4; public logs commit c64f182
+arXiv:2408.06292v3,The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery,https://arxiv.org/abs/2408.06292v3,Tables 3-5; public repository commit 1de1dbc; 12 linked all-run ZIPs
+arXiv:2602.21201v3,Aletheia tackles FirstProof autonomously,https://arxiv.org/abs/2602.21201v3,Tables 1-3; public repository commit 80b2527
+arXiv:2608.14905v2,How Do Agents Fail on AutoResearch,https://arxiv.org/abs/2608.14905v2,Table 12; Sections 2-5; released rollout summaries
+arXiv:2507.18074v3,AlphaGo Moment for Model Architecture Discovery,https://arxiv.org/abs/2507.18074v3,Section 4.2; repository commit 3113c51b04a1d4a7520a3b0238c6a08d3194d58f
+arXiv:2605.16616v1,MLReplicate: Benchmarking Autonomous Research Systems for Machine Learning Reproducibility,https://arxiv.org/abs/2605.16616v1,Sections 2-3; Figures 3-4; repository commit c0bdd77e33f425fc65274c3effd3e8de0d6522c4
+arXiv:2511.13825v1,When AI Does Science: Evaluating the Autonomous AI Scientist KOSMOS in Radiation Biology,https://arxiv.org/abs/2511.13825v1,Abstract; Sections 2-5; public prompts/artifacts link in paper
+arXiv:2506.01372v2,AI Scientists Fail Without Strong Implementation Capability,https://arxiv.org/abs/2506.01372v2,Section 3.3; Tables 2-3
+arXiv:2601.03315v1,Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts,https://arxiv.org/abs/2601.03315v1,Table 1; Figure 3; Sections 3 and 6
+arXiv:2603.27646v1,PRBench: End-to-end Paper Reproduction in Physics Research,https://arxiv.org/abs/2603.27646v1,Sections 3-5; benchmark protocol
+arXiv:2603.26177v1,Can AI Scientist Agents Learn from Lab-in-the-Loop Feedback? Evidence from Iterative Perturbation Discovery,https://arxiv.org/abs/2603.26177v1,Methods and results; 800-campaign factorial design
+arXiv:2605.06607v3,AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents,https://arxiv.org/abs/2605.06607v3,Task 5 results; validation appendix; planted-failure evaluation
+arXiv:2410.05080v3,ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery,https://arxiv.org/abs/2410.05080v3,Section 3 run-selection rule; Table 3; Appendix E.1 Tables E.1-E.2
+arXiv:2406.06769v2,DISCOVERYWORLD: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents,https://arxiv.org/abs/2406.06769v2,Sections 3-5; Tables 3-5
+arXiv:2509.26603v1,DeepScientist: Advancing Frontier-Pushing Scientific Findings Progressively,https://arxiv.org/abs/2509.26603v1,Figure 4; Sections 3-4
+arXiv:2604.12144v2,VERITAS: A Multi-Agent Co-Scientist for Verifiable Image-Derived Hypothesis Testing,https://arxiv.org/abs/2604.12144v2,Sections 3-5; benchmark and audit tables
+arXiv:2605.26340v1,ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence,https://arxiv.org/abs/2605.26340v1,Tables 1-3; Sections 4-5
+arXiv:2606.12848v1,(Human) Attention Is (Still) All You Need: Human oversight makes AI-assisted social science reliable,https://arxiv.org/abs/2606.12848v1,Tables 3-5; Sections 3-5
+arXiv:2607.17100v2,Auto Research for Materials: Auditable AI-Scientist Workflows with Held-Out Transfer,https://arxiv.org/abs/2607.17100v2,Sections 2-4; outer evaluation matrix
+arXiv:2606.07576v1,When Should an AI Scientist Stop? Verifiable Experiment Steering and Refusal for Autonomous Discovery,https://arxiv.org/abs/2606.07576v1,EPA testbed; A-Lab audit; Sections 3-5
+arXiv:2605.28065v1,Verifiable Benchmarking of Long-Horizon Spatial Biology,https://arxiv.org/abs/2605.28065v1,Benchmark construction; main results; trajectory accounting
+arXiv:2606.09550v1,InquiTree: Evaluating AI Agents in the Scientific Inquiry Loop with Paper-Derived Research Trees,https://arxiv.org/abs/2606.09550v1,Dataset construction; cutoff analysis; limitations
+arXiv:2608.03569v1,Adversarial Fast-Moving Real-World Domains as Test Beds for Benchmarking AI Scientist Capabilities,https://arxiv.org/abs/2608.03569v1,F1 benchmark; matching pipeline; human review analysis
+arXiv:2608.07542v1,"An AI Scientist that Doesn't Drift: Taste, Structure, and Falsifiable Findings in a Quadruped Navigation Research Loop",https://arxiv.org/abs/2608.07542v1,Experiment ledger; completed-hypothesis analysis; three-seed table
+arXiv:2510.21652v2,AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite,https://arxiv.org/abs/2510.21652v2,Dataset and evaluation sections; result tables
+arXiv:2511.02824v2,Kosmos: An AI Scientist for Autonomous Discovery,https://arxiv.org/abs/2511.02824v2,Methods; seven discovery cases; limitations
+arXiv:2504.08066v1,The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search,https://arxiv.org/abs/2504.08066v1,Sections 4-5; selection and review appendices
+arXiv:2504.09702v3,MLRC-Bench: Can Language Agents Solve Machine Learning Research Challenges?,https://arxiv.org/abs/2504.09702v3,Sections 3-5; checklist; Table 4
+arXiv:2506.17335v1,LMR-BENCH: Evaluating LLM Agent's Ability on Reproducing Language Modeling Research,https://arxiv.org/abs/2506.17335v1,Dataset construction; Table 2; failure analysis
+arXiv:2510.00620v1,"HARPA: A Testability-Driven, Literature-Grounded Framework for Research Ideation",https://arxiv.org/abs/2510.00620v1,Human evaluation; Figure 5; large-corpus trace-selection analysis
+arXiv:2510.18003v2,BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?,https://arxiv.org/abs/2510.18003v2,Generation protocol; structural gate; reviewer evaluation
+arXiv:2607.28631v1,Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review,https://arxiv.org/abs/2607.28631v1,Generation protocol; review rubric; agreement analysis
+arXiv:2607.10712v1,Distributed Denial of Science: How Indirect Data Poisoning of AI Systems Can Industrialize Scientific Fraud,https://arxiv.org/abs/2607.10712v1,Methods Sections 3.3 and 5.2; Figures 3 and 6-7
+arXiv:2606.27687v1,Mitigating LLM-based p-Hacking by Preregistering for the Next LLM,https://arxiv.org/abs/2606.27687v1,Methods; Table 2; preregistration
+arXiv:2608.12788v1,ARAC: Benchmarking Auto-Research's Alignment and Completeness on End-to-End Researchs,https://arxiv.org/abs/2608.12788v1,Main Table 3; Appendix Table 7; human evaluation
+arXiv:2604.12198v2,Grounded autonomous scrutiny at scale: emergent critique from reproduction of published computational physics papers,https://arxiv.org/abs/2604.12198v2,Scale methods; critique ledger; Appendix M1 and M6
+arXiv:2601.12910v3,SciCoQA: Quality Assurance for Scientific Paper-Code Alignment,https://arxiv.org/abs/2601.12910v3,Dataset construction; Figure 4; Table 10; judge validation
+arXiv:2608.19653v1,DeltaML-Bench 4@6h,https://arxiv.org/abs/2608.19653v1,see data/derived/rankability_audit_inputs.csv

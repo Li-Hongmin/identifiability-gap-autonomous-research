@@ -1,0 +1,377 @@
+audit_id,evaluation,audit_group,system_i,system_i_name,system_j,system_j_name,display_relation,target_relation,display_claim_status,source_anchor
+MLREPLICATE,MLReplicate,selected_output,AIS1,AI Scientist v1,AIS2,AI Scientist v2,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIS1,AI Scientist v1,AL,Agent Laboratory,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIS1,AI Scientist v1,AIR,AI Researcher,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIS1,AI Scientist v1,CR,CycleResearcher,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIS1,AI Scientist v1,TS,Tiny Scientist,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIS2,AI Scientist v2,AL,Agent Laboratory,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIS2,AI Scientist v2,AIR,AI Researcher,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIS2,AI Scientist v2,CR,CycleResearcher,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIS2,AI Scientist v2,TS,Tiny Scientist,no_display,unresolved,no_display,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AL,Agent Laboratory,AIR,AI Researcher,AL>AIR,unresolved,unresolved,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AL,Agent Laboratory,CR,CycleResearcher,CR>AL,unresolved,unresolved,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AL,Agent Laboratory,TS,Tiny Scientist,AL>TS,unresolved,unresolved,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIR,AI Researcher,CR,CycleResearcher,CR>AIR,unresolved,unresolved,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,AIR,AI Researcher,TS,Tiny Scientist,TS>AIR,unresolved,unresolved,Figures 2--3
+MLREPLICATE,MLReplicate,selected_output,CR,CycleResearcher,TS,Tiny Scientist,CR>TS,unresolved,unresolved,Figures 2--3
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,L405_DP,Llama-3.1-405B / direct,L70_DP>L405_DP,unresolved,unresolved,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,MISTRAL_DP,Mistral-Large-2 / direct,MISTRAL_DP>L70_DP,MISTRAL_DP>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,GPT4O_DP,GPT-4o / direct,GPT4O_DP>L70_DP,GPT4O_DP>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,CLAUDE_DP,Claude-3.5-Sonnet / direct,CLAUDE_DP>L70_DP,CLAUDE_DP>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,L70_OH,Llama-3.1-70B / OpenHands,L70_OH>L70_DP,L70_DP>L70_OH,reversed,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,L405_OH,Llama-3.1-405B / OpenHands,unresolved,L70_DP>L405_OH,displayed_not_strict,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,MISTRAL_OH,Mistral-Large-2 / OpenHands,MISTRAL_OH>L70_DP,MISTRAL_OH>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,GPT4O_OH,GPT-4o / OpenHands,GPT4O_OH>L70_DP,GPT4O_OH>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>L70_DP,CLAUDE_OH>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,L70_SD,Llama-3.1-70B / self-debug,L70_SD>L70_DP,L70_SD>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,L405_SD,Llama-3.1-405B / self-debug,L405_SD>L70_DP,L405_SD>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>L70_DP,MISTRAL_SD>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>L70_DP,GPT4O_SD>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_DP,Llama-3.1-70B / direct,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>L70_DP,CLAUDE_SD>L70_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,MISTRAL_DP,Mistral-Large-2 / direct,MISTRAL_DP>L405_DP,MISTRAL_DP>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,GPT4O_DP,GPT-4o / direct,GPT4O_DP>L405_DP,GPT4O_DP>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,CLAUDE_DP,Claude-3.5-Sonnet / direct,CLAUDE_DP>L405_DP,CLAUDE_DP>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,L70_OH,Llama-3.1-70B / OpenHands,L70_OH>L405_DP,L405_DP>L70_OH,reversed,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,L405_OH,Llama-3.1-405B / OpenHands,L405_OH>L405_DP,L405_DP>L405_OH,reversed,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,MISTRAL_OH,Mistral-Large-2 / OpenHands,MISTRAL_OH>L405_DP,MISTRAL_OH>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,GPT4O_OH,GPT-4o / OpenHands,GPT4O_OH>L405_DP,GPT4O_OH>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>L405_DP,CLAUDE_OH>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,L70_SD,Llama-3.1-70B / self-debug,L70_SD>L405_DP,L70_SD>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,L405_SD,Llama-3.1-405B / self-debug,L405_SD>L405_DP,L405_SD>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>L405_DP,MISTRAL_SD>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>L405_DP,GPT4O_SD>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_DP,Llama-3.1-405B / direct,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>L405_DP,CLAUDE_SD>L405_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,GPT4O_DP,GPT-4o / direct,MISTRAL_DP>GPT4O_DP,MISTRAL_DP>GPT4O_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,CLAUDE_DP,Claude-3.5-Sonnet / direct,CLAUDE_DP>MISTRAL_DP,CLAUDE_DP>MISTRAL_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,L70_OH,Llama-3.1-70B / OpenHands,MISTRAL_DP>L70_OH,MISTRAL_DP>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,L405_OH,Llama-3.1-405B / OpenHands,MISTRAL_DP>L405_OH,MISTRAL_DP>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,MISTRAL_OH,Mistral-Large-2 / OpenHands,MISTRAL_DP>MISTRAL_OH,MISTRAL_DP>MISTRAL_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,GPT4O_OH,GPT-4o / OpenHands,GPT4O_OH>MISTRAL_DP,GPT4O_OH>MISTRAL_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>MISTRAL_DP,CLAUDE_OH>MISTRAL_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,L70_SD,Llama-3.1-70B / self-debug,unresolved,MISTRAL_DP>L70_SD,displayed_not_strict,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,L405_SD,Llama-3.1-405B / self-debug,L405_SD>MISTRAL_DP,MISTRAL_DP>L405_SD,reversed,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>MISTRAL_DP,MISTRAL_SD>MISTRAL_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>MISTRAL_DP,GPT4O_SD>MISTRAL_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_DP,Mistral-Large-2 / direct,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>MISTRAL_DP,CLAUDE_SD>MISTRAL_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,CLAUDE_DP,Claude-3.5-Sonnet / direct,CLAUDE_DP>GPT4O_DP,CLAUDE_DP>GPT4O_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,L70_OH,Llama-3.1-70B / OpenHands,GPT4O_DP>L70_OH,GPT4O_DP>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,L405_OH,Llama-3.1-405B / OpenHands,GPT4O_DP>L405_OH,GPT4O_DP>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,MISTRAL_OH,Mistral-Large-2 / OpenHands,GPT4O_DP>MISTRAL_OH,unresolved,unresolved,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,GPT4O_OH,GPT-4o / OpenHands,GPT4O_OH>GPT4O_DP,GPT4O_OH>GPT4O_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>GPT4O_DP,CLAUDE_OH>GPT4O_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,L70_SD,Llama-3.1-70B / self-debug,L70_SD>GPT4O_DP,GPT4O_DP>L70_SD,reversed,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,L405_SD,Llama-3.1-405B / self-debug,L405_SD>GPT4O_DP,L405_SD>GPT4O_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>GPT4O_DP,MISTRAL_SD>GPT4O_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>GPT4O_DP,GPT4O_SD>GPT4O_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_DP,GPT-4o / direct,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>GPT4O_DP,CLAUDE_SD>GPT4O_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,L70_OH,Llama-3.1-70B / OpenHands,CLAUDE_DP>L70_OH,CLAUDE_DP>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,L405_OH,Llama-3.1-405B / OpenHands,CLAUDE_DP>L405_OH,CLAUDE_DP>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,MISTRAL_OH,Mistral-Large-2 / OpenHands,CLAUDE_DP>MISTRAL_OH,CLAUDE_DP>MISTRAL_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,GPT4O_OH,GPT-4o / OpenHands,GPT4O_OH>CLAUDE_DP,GPT4O_OH>CLAUDE_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>CLAUDE_DP,CLAUDE_OH>CLAUDE_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,L70_SD,Llama-3.1-70B / self-debug,CLAUDE_DP>L70_SD,CLAUDE_DP>L70_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,L405_SD,Llama-3.1-405B / self-debug,CLAUDE_DP>L405_SD,CLAUDE_DP>L405_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>CLAUDE_DP,MISTRAL_SD>CLAUDE_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>CLAUDE_DP,GPT4O_SD>CLAUDE_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_DP,Claude-3.5-Sonnet / direct,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>CLAUDE_DP,CLAUDE_SD>CLAUDE_DP,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,L405_OH,Llama-3.1-405B / OpenHands,L70_OH>L405_OH,L70_OH>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,MISTRAL_OH,Mistral-Large-2 / OpenHands,MISTRAL_OH>L70_OH,MISTRAL_OH>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,GPT4O_OH,GPT-4o / OpenHands,GPT4O_OH>L70_OH,GPT4O_OH>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>L70_OH,CLAUDE_OH>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,L70_SD,Llama-3.1-70B / self-debug,L70_SD>L70_OH,L70_SD>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,L405_SD,Llama-3.1-405B / self-debug,L405_SD>L70_OH,L405_SD>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>L70_OH,MISTRAL_SD>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>L70_OH,GPT4O_SD>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_OH,Llama-3.1-70B / OpenHands,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>L70_OH,CLAUDE_SD>L70_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_OH,Llama-3.1-405B / OpenHands,MISTRAL_OH,Mistral-Large-2 / OpenHands,MISTRAL_OH>L405_OH,MISTRAL_OH>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_OH,Llama-3.1-405B / OpenHands,GPT4O_OH,GPT-4o / OpenHands,GPT4O_OH>L405_OH,GPT4O_OH>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_OH,Llama-3.1-405B / OpenHands,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>L405_OH,CLAUDE_OH>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_OH,Llama-3.1-405B / OpenHands,L70_SD,Llama-3.1-70B / self-debug,L70_SD>L405_OH,L70_SD>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_OH,Llama-3.1-405B / OpenHands,L405_SD,Llama-3.1-405B / self-debug,L405_SD>L405_OH,L405_SD>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_OH,Llama-3.1-405B / OpenHands,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>L405_OH,MISTRAL_SD>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_OH,Llama-3.1-405B / OpenHands,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>L405_OH,GPT4O_SD>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_OH,Llama-3.1-405B / OpenHands,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>L405_OH,CLAUDE_SD>L405_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_OH,Mistral-Large-2 / OpenHands,GPT4O_OH,GPT-4o / OpenHands,GPT4O_OH>MISTRAL_OH,GPT4O_OH>MISTRAL_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_OH,Mistral-Large-2 / OpenHands,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>MISTRAL_OH,CLAUDE_OH>MISTRAL_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_OH,Mistral-Large-2 / OpenHands,L70_SD,Llama-3.1-70B / self-debug,L70_SD>MISTRAL_OH,MISTRAL_OH>L70_SD,reversed,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_OH,Mistral-Large-2 / OpenHands,L405_SD,Llama-3.1-405B / self-debug,L405_SD>MISTRAL_OH,L405_SD>MISTRAL_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_OH,Mistral-Large-2 / OpenHands,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>MISTRAL_OH,MISTRAL_SD>MISTRAL_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_OH,Mistral-Large-2 / OpenHands,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>MISTRAL_OH,GPT4O_SD>MISTRAL_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_OH,Mistral-Large-2 / OpenHands,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>MISTRAL_OH,CLAUDE_SD>MISTRAL_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_OH,GPT-4o / OpenHands,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_OH>GPT4O_OH,CLAUDE_OH>GPT4O_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_OH,GPT-4o / OpenHands,L70_SD,Llama-3.1-70B / self-debug,GPT4O_OH>L70_SD,GPT4O_OH>L70_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_OH,GPT-4o / OpenHands,L405_SD,Llama-3.1-405B / self-debug,GPT4O_OH>L405_SD,GPT4O_OH>L405_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_OH,GPT-4o / OpenHands,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>GPT4O_OH,MISTRAL_SD>GPT4O_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_OH,GPT-4o / OpenHands,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>GPT4O_OH,GPT4O_SD>GPT4O_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_OH,GPT-4o / OpenHands,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>GPT4O_OH,CLAUDE_SD>GPT4O_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,L70_SD,Llama-3.1-70B / self-debug,CLAUDE_OH>L70_SD,CLAUDE_OH>L70_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,L405_SD,Llama-3.1-405B / self-debug,CLAUDE_OH>L405_SD,CLAUDE_OH>L405_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>CLAUDE_OH,MISTRAL_SD>CLAUDE_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>CLAUDE_OH,GPT4O_SD>CLAUDE_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,CLAUDE_OH,Claude-3.5-Sonnet / OpenHands,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>CLAUDE_OH,CLAUDE_SD>CLAUDE_OH,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_SD,Llama-3.1-70B / self-debug,L405_SD,Llama-3.1-405B / self-debug,L405_SD>L70_SD,L405_SD>L70_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_SD,Llama-3.1-70B / self-debug,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>L70_SD,MISTRAL_SD>L70_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_SD,Llama-3.1-70B / self-debug,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>L70_SD,GPT4O_SD>L70_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L70_SD,Llama-3.1-70B / self-debug,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>L70_SD,CLAUDE_SD>L70_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_SD,Llama-3.1-405B / self-debug,MISTRAL_SD,Mistral-Large-2 / self-debug,MISTRAL_SD>L405_SD,MISTRAL_SD>L405_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_SD,Llama-3.1-405B / self-debug,GPT4O_SD,GPT-4o / self-debug,GPT4O_SD>L405_SD,GPT4O_SD>L405_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,L405_SD,Llama-3.1-405B / self-debug,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>L405_SD,CLAUDE_SD>L405_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_SD,Mistral-Large-2 / self-debug,GPT4O_SD,GPT-4o / self-debug,MISTRAL_SD>GPT4O_SD,MISTRAL_SD>GPT4O_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,MISTRAL_SD,Mistral-Large-2 / self-debug,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>MISTRAL_SD,CLAUDE_SD>MISTRAL_SD,certified,Table 3; Table E.1
+SCIENCEAGENTBENCH,ScienceAgentBench,selected_output,GPT4O_SD,GPT-4o / self-debug,CLAUDE_SD,Claude-3.5-Sonnet / self-debug,CLAUDE_SD>GPT4O_SD,CLAUDE_SD>GPT4O_SD,certified,Table 3; Table E.1
+SCIENTISTONE,ScientistOne,selected_output,SAKANA,Sakana AI-Scientist v2,ARC,AutoResearchClaw,SAKANA>ARC,SAKANA>ARC,certified,Table 2
+SCIENTISTONE,ScientistOne,selected_output,SAKANA,Sakana AI-Scientist v2,DS,DeepScientist,DS>SAKANA,unresolved,unresolved,Table 2
+SCIENTISTONE,ScientistOne,selected_output,SAKANA,Sakana AI-Scientist v2,AIR,AI-Researcher,AIR>SAKANA,AIR>SAKANA,certified,Table 2
+SCIENTISTONE,ScientistOne,selected_output,SAKANA,Sakana AI-Scientist v2,S1,ScientistOne,S1>SAKANA,S1>SAKANA,certified,Table 2
+SCIENTISTONE,ScientistOne,selected_output,ARC,AutoResearchClaw,DS,DeepScientist,DS>ARC,DS>ARC,certified,Table 2
+SCIENTISTONE,ScientistOne,selected_output,ARC,AutoResearchClaw,AIR,AI-Researcher,AIR>ARC,AIR>ARC,certified,Table 2
+SCIENTISTONE,ScientistOne,selected_output,ARC,AutoResearchClaw,S1,ScientistOne,S1>ARC,S1>ARC,certified,Table 2
+SCIENTISTONE,ScientistOne,selected_output,DS,DeepScientist,AIR,AI-Researcher,AIR>DS,AIR>DS,certified,Table 2
+SCIENTISTONE,ScientistOne,selected_output,DS,DeepScientist,S1,ScientistOne,S1>DS,S1>DS,certified,Table 2
+SCIENTISTONE,ScientistOne,selected_output,AIR,AI-Researcher,S1,ScientistOne,S1>AIR,S1>AIR,certified,Table 2
+DELTAML_4X6H,DeltaML-Bench 4@6h,all_unit_control,C4M,Claude Sonnet 4 / Modular,C4A,Claude Sonnet 4 / ARG,C4A>C4M,C4A>C4M,certified,Table 1
+DELTAML_4X6H,DeltaML-Bench 4@6h,all_unit_control,C4M,Claude Sonnet 4 / Modular,G5M,GPT-5 / Modular,C4M>G5M,C4M>G5M,certified,Table 1
+DELTAML_4X6H,DeltaML-Bench 4@6h,all_unit_control,C4M,Claude Sonnet 4 / Modular,G5A,GPT-5 / ARG,G5A>C4M,G5A>C4M,certified,Table 1
+DELTAML_4X6H,DeltaML-Bench 4@6h,all_unit_control,C4A,Claude Sonnet 4 / ARG,G5M,GPT-5 / Modular,C4A>G5M,C4A>G5M,certified,Table 1
+DELTAML_4X6H,DeltaML-Bench 4@6h,all_unit_control,C4A,Claude Sonnet 4 / ARG,G5A,GPT-5 / ARG,G5A>C4A,G5A>C4A,certified,Table 1
+DELTAML_4X6H,DeltaML-Bench 4@6h,all_unit_control,G5M,GPT-5 / Modular,G5A,GPT-5 / ARG,G5A>G5M,G5A>G5M,certified,Table 1
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4,GPT-4,GPT4T,GPT-4-turbo,GPT4T>GPT4,GPT4T>GPT4,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4,GPT-4,C1,Claude v1.0,GPT4>C1,GPT4>C1,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4,GPT-4,C21,Claude v2.1,C21>GPT4,C21>GPT4,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4,GPT-4,C3,Claude v3 Opus,C3>GPT4,C3>GPT4,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4,GPT-4,GEMINI,Gemini Pro,GPT4>GEMINI,GPT4>GEMINI,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4,GPT-4,MIXTRAL,Mixtral,GPT4>MIXTRAL,GPT4>MIXTRAL,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4T,GPT-4-turbo,C1,Claude v1.0,GPT4T>C1,GPT4T>C1,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4T,GPT-4-turbo,C21,Claude v2.1,unresolved,unresolved,displayed_not_strict,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4T,GPT-4-turbo,C3,Claude v3 Opus,C3>GPT4T,C3>GPT4T,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4T,GPT-4-turbo,GEMINI,Gemini Pro,GPT4T>GEMINI,GPT4T>GEMINI,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GPT4T,GPT-4-turbo,MIXTRAL,Mixtral,GPT4T>MIXTRAL,GPT4T>MIXTRAL,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C1,Claude v1.0,C21,Claude v2.1,C21>C1,C21>C1,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C1,Claude v1.0,C3,Claude v3 Opus,C3>C1,C3>C1,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C1,Claude v1.0,GEMINI,Gemini Pro,GEMINI>C1,GEMINI>C1,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C1,Claude v1.0,MIXTRAL,Mixtral,C1>MIXTRAL,C1>MIXTRAL,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C21,Claude v2.1,C3,Claude v3 Opus,C3>C21,C3>C21,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C21,Claude v2.1,GEMINI,Gemini Pro,C21>GEMINI,C21>GEMINI,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C21,Claude v2.1,MIXTRAL,Mixtral,C21>MIXTRAL,C21>MIXTRAL,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C3,Claude v3 Opus,GEMINI,Gemini Pro,C3>GEMINI,C3>GEMINI,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,C3,Claude v3 Opus,MIXTRAL,Mixtral,C3>MIXTRAL,C3>MIXTRAL,certified,Table 3
+MLAGENTBENCH,MLAgentBench,all_unit_control,GEMINI,Gemini Pro,MIXTRAL,Mixtral,GEMINI>MIXTRAL,GEMINI>MIXTRAL,certified,Table 3
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,G55_CODEX,GPT-5.5 / OpenAI Codex,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,G55_PI,GPT-5.5 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,O46_CC,Claude Opus 4.6 / Claude Code,G35_PI>O46_CC,G35_PI>O46_CC,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,O47_CC,Claude Opus 4.7 / Claude Code,G35_PI>O47_CC,G35_PI>O47_CC,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,G420_PI,Grok 4.20 beta / Pi,G35_PI>G420_PI,G35_PI>G420_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,O46_PI,Claude Opus 4.6 / Pi,G35_PI>O46_PI,G35_PI>O46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,O47_PI,Claude Opus 4.7 / Pi,G35_PI>O47_PI,G35_PI>O47_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,KIMI_PI,Kimi K2P6 / Pi,G35_PI>KIMI_PI,G35_PI>KIMI_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,G54_PI,GPT-5.4 / Pi,G35_PI>G54_PI,G35_PI>G54_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,S46_PI,Claude Sonnet 4.6 / Pi,G35_PI>S46_PI,G35_PI>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,G31_PI,Gemini 3.1 Pro / Pi,G35_PI>G31_PI,G35_PI>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,G35_PI>G54_CODEX,G35_PI>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,G43_PI,Grok 4.3 / Pi,G35_PI>G43_PI,G35_PI>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G35_PI,Gemini 3.5 Flash / Pi,G25_PI,Gemini 2.5 Pro / Pi,G35_PI>G25_PI,G35_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,G55_PI,GPT-5.5 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,O46_CC,Claude Opus 4.6 / Claude Code,G55_CODEX>O46_CC,G55_CODEX>O46_CC,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,O47_CC,Claude Opus 4.7 / Claude Code,G55_CODEX>O47_CC,G55_CODEX>O47_CC,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,G420_PI,Grok 4.20 beta / Pi,G55_CODEX>G420_PI,G55_CODEX>G420_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,O46_PI,Claude Opus 4.6 / Pi,G55_CODEX>O46_PI,G55_CODEX>O46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,O47_PI,Claude Opus 4.7 / Pi,G55_CODEX>O47_PI,G55_CODEX>O47_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,KIMI_PI,Kimi K2P6 / Pi,G55_CODEX>KIMI_PI,G55_CODEX>KIMI_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,G54_PI,GPT-5.4 / Pi,G55_CODEX>G54_PI,G55_CODEX>G54_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,S46_PI,Claude Sonnet 4.6 / Pi,G55_CODEX>S46_PI,G55_CODEX>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,G31_PI,Gemini 3.1 Pro / Pi,G55_CODEX>G31_PI,G55_CODEX>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,G54_CODEX,GPT-5.4 / OpenAI Codex,G55_CODEX>G54_CODEX,G55_CODEX>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,G43_PI,Grok 4.3 / Pi,G55_CODEX>G43_PI,G55_CODEX>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_CODEX,GPT-5.5 / OpenAI Codex,G25_PI,Gemini 2.5 Pro / Pi,G55_CODEX>G25_PI,G55_CODEX>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,O46_CC,Claude Opus 4.6 / Claude Code,G55_PI>O46_CC,G55_PI>O46_CC,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,O47_CC,Claude Opus 4.7 / Claude Code,G55_PI>O47_CC,G55_PI>O47_CC,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,G420_PI,Grok 4.20 beta / Pi,G55_PI>G420_PI,G55_PI>G420_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,O46_PI,Claude Opus 4.6 / Pi,G55_PI>O46_PI,G55_PI>O46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,O47_PI,Claude Opus 4.7 / Pi,G55_PI>O47_PI,G55_PI>O47_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,KIMI_PI,Kimi K2P6 / Pi,G55_PI>KIMI_PI,G55_PI>KIMI_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,G54_PI,GPT-5.4 / Pi,G55_PI>G54_PI,G55_PI>G54_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,S46_PI,Claude Sonnet 4.6 / Pi,G55_PI>S46_PI,G55_PI>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,G31_PI,Gemini 3.1 Pro / Pi,G55_PI>G31_PI,G55_PI>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,G55_PI>G54_CODEX,G55_PI>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,G43_PI,Grok 4.3 / Pi,G55_PI>G43_PI,G55_PI>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G55_PI,GPT-5.5 / Pi,G25_PI,Gemini 2.5 Pro / Pi,G55_PI>G25_PI,G55_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,O47_CC,Claude Opus 4.7 / Claude Code,O46_CC>O47_CC,O46_CC>O47_CC,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,G420_PI,Grok 4.20 beta / Pi,O46_CC>G420_PI,O46_CC>G420_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,O46_PI,Claude Opus 4.6 / Pi,O46_CC>O46_PI,O46_CC>O46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,O47_PI,Claude Opus 4.7 / Pi,O46_CC>O47_PI,O46_CC>O47_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,KIMI_PI,Kimi K2P6 / Pi,O46_CC>KIMI_PI,O46_CC>KIMI_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,G54_PI,GPT-5.4 / Pi,O46_CC>G54_PI,O46_CC>G54_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,S46_PI,Claude Sonnet 4.6 / Pi,O46_CC>S46_PI,O46_CC>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,G31_PI,Gemini 3.1 Pro / Pi,O46_CC>G31_PI,O46_CC>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,G54_CODEX,GPT-5.4 / OpenAI Codex,O46_CC>G54_CODEX,O46_CC>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,G43_PI,Grok 4.3 / Pi,O46_CC>G43_PI,O46_CC>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_CC,Claude Opus 4.6 / Claude Code,G25_PI,Gemini 2.5 Pro / Pi,O46_CC>G25_PI,O46_CC>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,G420_PI,Grok 4.20 beta / Pi,O47_CC>G420_PI,O47_CC>G420_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,O46_PI,Claude Opus 4.6 / Pi,O47_CC>O46_PI,O47_CC>O46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,O47_PI,Claude Opus 4.7 / Pi,O47_CC>O47_PI,O47_CC>O47_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,KIMI_PI,Kimi K2P6 / Pi,O47_CC>KIMI_PI,O47_CC>KIMI_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,G54_PI,GPT-5.4 / Pi,O47_CC>G54_PI,O47_CC>G54_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,S46_PI,Claude Sonnet 4.6 / Pi,O47_CC>S46_PI,O47_CC>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,G31_PI,Gemini 3.1 Pro / Pi,O47_CC>G31_PI,O47_CC>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,G54_CODEX,GPT-5.4 / OpenAI Codex,O47_CC>G54_CODEX,O47_CC>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,G43_PI,Grok 4.3 / Pi,O47_CC>G43_PI,O47_CC>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_CC,Claude Opus 4.7 / Claude Code,G25_PI,Gemini 2.5 Pro / Pi,O47_CC>G25_PI,O47_CC>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,O46_PI,Claude Opus 4.6 / Pi,G420_PI>O46_PI,G420_PI>O46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,O47_PI,Claude Opus 4.7 / Pi,G420_PI>O47_PI,G420_PI>O47_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,KIMI_PI,Kimi K2P6 / Pi,G420_PI>KIMI_PI,G420_PI>KIMI_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,G54_PI,GPT-5.4 / Pi,G420_PI>G54_PI,G420_PI>G54_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,S46_PI,Claude Sonnet 4.6 / Pi,G420_PI>S46_PI,G420_PI>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,G31_PI,Gemini 3.1 Pro / Pi,G420_PI>G31_PI,G420_PI>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,G420_PI>G54_CODEX,G420_PI>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,G43_PI,Grok 4.3 / Pi,G420_PI>G43_PI,G420_PI>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G420_PI,Grok 4.20 beta / Pi,G25_PI,Gemini 2.5 Pro / Pi,G420_PI>G25_PI,G420_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_PI,Claude Opus 4.6 / Pi,O47_PI,Claude Opus 4.7 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_PI,Claude Opus 4.6 / Pi,KIMI_PI,Kimi K2P6 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_PI,Claude Opus 4.6 / Pi,G54_PI,GPT-5.4 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_PI,Claude Opus 4.6 / Pi,S46_PI,Claude Sonnet 4.6 / Pi,O46_PI>S46_PI,O46_PI>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_PI,Claude Opus 4.6 / Pi,G31_PI,Gemini 3.1 Pro / Pi,O46_PI>G31_PI,O46_PI>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_PI,Claude Opus 4.6 / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,O46_PI>G54_CODEX,O46_PI>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_PI,Claude Opus 4.6 / Pi,G43_PI,Grok 4.3 / Pi,O46_PI>G43_PI,O46_PI>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O46_PI,Claude Opus 4.6 / Pi,G25_PI,Gemini 2.5 Pro / Pi,O46_PI>G25_PI,O46_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_PI,Claude Opus 4.7 / Pi,KIMI_PI,Kimi K2P6 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_PI,Claude Opus 4.7 / Pi,G54_PI,GPT-5.4 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_PI,Claude Opus 4.7 / Pi,S46_PI,Claude Sonnet 4.6 / Pi,O47_PI>S46_PI,O47_PI>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_PI,Claude Opus 4.7 / Pi,G31_PI,Gemini 3.1 Pro / Pi,O47_PI>G31_PI,O47_PI>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_PI,Claude Opus 4.7 / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,O47_PI>G54_CODEX,O47_PI>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_PI,Claude Opus 4.7 / Pi,G43_PI,Grok 4.3 / Pi,O47_PI>G43_PI,O47_PI>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,O47_PI,Claude Opus 4.7 / Pi,G25_PI,Gemini 2.5 Pro / Pi,O47_PI>G25_PI,O47_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,KIMI_PI,Kimi K2P6 / Pi,G54_PI,GPT-5.4 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,KIMI_PI,Kimi K2P6 / Pi,S46_PI,Claude Sonnet 4.6 / Pi,KIMI_PI>S46_PI,KIMI_PI>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,KIMI_PI,Kimi K2P6 / Pi,G31_PI,Gemini 3.1 Pro / Pi,KIMI_PI>G31_PI,KIMI_PI>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,KIMI_PI,Kimi K2P6 / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,KIMI_PI>G54_CODEX,KIMI_PI>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,KIMI_PI,Kimi K2P6 / Pi,G43_PI,Grok 4.3 / Pi,KIMI_PI>G43_PI,KIMI_PI>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,KIMI_PI,Kimi K2P6 / Pi,G25_PI,Gemini 2.5 Pro / Pi,KIMI_PI>G25_PI,KIMI_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G54_PI,GPT-5.4 / Pi,S46_PI,Claude Sonnet 4.6 / Pi,G54_PI>S46_PI,G54_PI>S46_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G54_PI,GPT-5.4 / Pi,G31_PI,Gemini 3.1 Pro / Pi,G54_PI>G31_PI,G54_PI>G31_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G54_PI,GPT-5.4 / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,G54_PI>G54_CODEX,G54_PI>G54_CODEX,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G54_PI,GPT-5.4 / Pi,G43_PI,Grok 4.3 / Pi,G54_PI>G43_PI,G54_PI>G43_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G54_PI,GPT-5.4 / Pi,G25_PI,Gemini 2.5 Pro / Pi,G54_PI>G25_PI,G54_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,S46_PI,Claude Sonnet 4.6 / Pi,G31_PI,Gemini 3.1 Pro / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,S46_PI,Claude Sonnet 4.6 / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,S46_PI,Claude Sonnet 4.6 / Pi,G43_PI,Grok 4.3 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,S46_PI,Claude Sonnet 4.6 / Pi,G25_PI,Gemini 2.5 Pro / Pi,S46_PI>G25_PI,S46_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G31_PI,Gemini 3.1 Pro / Pi,G54_CODEX,GPT-5.4 / OpenAI Codex,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G31_PI,Gemini 3.1 Pro / Pi,G43_PI,Grok 4.3 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G31_PI,Gemini 3.1 Pro / Pi,G25_PI,Gemini 2.5 Pro / Pi,G31_PI>G25_PI,G31_PI>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G54_CODEX,GPT-5.4 / OpenAI Codex,G43_PI,Grok 4.3 / Pi,unresolved,unresolved,displayed_not_strict,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G54_CODEX,GPT-5.4 / OpenAI Codex,G25_PI,Gemini 2.5 Pro / Pi,G54_CODEX>G25_PI,G54_CODEX>G25_PI,certified,Table 2
+SPATIALBENCH,SpatialBench-Long,all_unit_control,G43_PI,Grok 4.3 / Pi,G25_PI,Gemini 2.5 Pro / Pi,G43_PI>G25_PI,G43_PI>G25_PI,certified,Table 2
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S1,Strategy s1,S2,Strategy s2,S1>S2,S1>S2,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S1,Strategy s1,S3,Strategy s3,S1>S3,S1>S3,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S1,Strategy s1,S4,Strategy s4,S1>S4,S1>S4,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S1,Strategy s1,S5,Strategy s5,S1>S5,S1>S5,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S1,Strategy s1,ALL,All strategies,S1>ALL,S1>ALL,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S2,Strategy s2,S3,Strategy s3,S3>S2,S3>S2,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S2,Strategy s2,S4,Strategy s4,S4>S2,S4>S2,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S2,Strategy s2,S5,Strategy s5,S5>S2,S5>S2,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S2,Strategy s2,ALL,All strategies,ALL>S2,ALL>S2,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S3,Strategy s3,S4,Strategy s4,S3>S4,S3>S4,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S3,Strategy s3,S5,Strategy s5,S3>S5,S3>S5,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S3,Strategy s3,ALL,All strategies,S3>ALL,S3>ALL,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S4,Strategy s4,S5,Strategy s5,S4>S5,S4>S5,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S4,Strategy s4,ALL,All strategies,ALL>S4,ALL>S4,certified,Table 1; Section 4.1
+BADSCIENTIST_RATE,BadScientist rate-matched review,selected_output,S5,Strategy s5,ALL,All strategies,ALL>S5,ALL>S5,certified,Table 1; Section 4.1
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,CLAUDE,Claude 4.6 Sonnet,GPT,GPT 5.2,CLAUDE>GPT,CLAUDE>GPT,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,CLAUDE,Claude 4.6 Sonnet,DEEPSEEK,DeepSeek V3.2,CLAUDE>DEEPSEEK,CLAUDE>DEEPSEEK,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,CLAUDE,Claude 4.6 Sonnet,GEMINI,Gemini 3.1 Pro,CLAUDE>GEMINI,CLAUDE>GEMINI,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,CLAUDE,Claude 4.6 Sonnet,QWEN,Qwen3.5 397B A17B,CLAUDE>QWEN,CLAUDE>QWEN,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,CLAUDE,Claude 4.6 Sonnet,GLM,GLM 5 Pro,CLAUDE>GLM,CLAUDE>GLM,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,CLAUDE,Claude 4.6 Sonnet,KIMI,Kimi 2.5 Pro,CLAUDE>KIMI,CLAUDE>KIMI,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GPT,GPT 5.2,DEEPSEEK,DeepSeek V3.2,GPT>DEEPSEEK,GPT>DEEPSEEK,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GPT,GPT 5.2,GEMINI,Gemini 3.1 Pro,GPT>GEMINI,GPT>GEMINI,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GPT,GPT 5.2,QWEN,Qwen3.5 397B A17B,GPT>QWEN,GPT>QWEN,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GPT,GPT 5.2,GLM,GLM 5 Pro,GPT>GLM,GPT>GLM,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GPT,GPT 5.2,KIMI,Kimi 2.5 Pro,GPT>KIMI,GPT>KIMI,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,DEEPSEEK,DeepSeek V3.2,GEMINI,Gemini 3.1 Pro,DEEPSEEK>GEMINI,DEEPSEEK>GEMINI,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,DEEPSEEK,DeepSeek V3.2,QWEN,Qwen3.5 397B A17B,DEEPSEEK>QWEN,DEEPSEEK>QWEN,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,DEEPSEEK,DeepSeek V3.2,GLM,GLM 5 Pro,DEEPSEEK>GLM,DEEPSEEK>GLM,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,DEEPSEEK,DeepSeek V3.2,KIMI,Kimi 2.5 Pro,DEEPSEEK>KIMI,DEEPSEEK>KIMI,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GEMINI,Gemini 3.1 Pro,QWEN,Qwen3.5 397B A17B,GEMINI>QWEN,GEMINI>QWEN,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GEMINI,Gemini 3.1 Pro,GLM,GLM 5 Pro,GEMINI>GLM,GEMINI>GLM,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GEMINI,Gemini 3.1 Pro,KIMI,Kimi 2.5 Pro,GEMINI>KIMI,GEMINI>KIMI,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,QWEN,Qwen3.5 397B A17B,GLM,GLM 5 Pro,QWEN>GLM,QWEN>GLM,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,QWEN,Qwen3.5 397B A17B,KIMI,Kimi 2.5 Pro,QWEN>KIMI,QWEN>KIMI,certified,Table 2
+SCIINTEGRITY,SciIntegrity-Bench,all_unit_control,GLM,GLM 5 Pro,KIMI,Kimi 2.5 Pro,GLM>KIMI,GLM>KIMI,certified,Table 2
+CORRAL_TASK,Corral task success,all_unit_control,C45_R,Claude 4.5 / ReAct,C45_TC,Claude 4.5 / Tool Calling,C45_R>C45_TC,C45_R>C45_TC,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,C45_R,Claude 4.5 / ReAct,G4_R,GPT-4o / ReAct,C45_R>G4_R,C45_R>G4_R,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,C45_R,Claude 4.5 / ReAct,G4_TC,GPT-4o / Tool Calling,C45_R>G4_TC,C45_R>G4_TC,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,C45_R,Claude 4.5 / ReAct,GOSS_R,GPT-OSS-120B / ReAct,C45_R>GOSS_R,C45_R>GOSS_R,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,C45_R,Claude 4.5 / ReAct,GOSS_TC,GPT-OSS-120B / Tool Calling,C45_R>GOSS_TC,C45_R>GOSS_TC,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,C45_TC,Claude 4.5 / Tool Calling,G4_R,GPT-4o / ReAct,C45_TC>G4_R,C45_TC>G4_R,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,C45_TC,Claude 4.5 / Tool Calling,G4_TC,GPT-4o / Tool Calling,C45_TC>G4_TC,C45_TC>G4_TC,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,C45_TC,Claude 4.5 / Tool Calling,GOSS_R,GPT-OSS-120B / ReAct,C45_TC>GOSS_R,C45_TC>GOSS_R,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,C45_TC,Claude 4.5 / Tool Calling,GOSS_TC,GPT-OSS-120B / Tool Calling,C45_TC>GOSS_TC,C45_TC>GOSS_TC,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,G4_R,GPT-4o / ReAct,G4_TC,GPT-4o / Tool Calling,G4_TC>G4_R,G4_TC>G4_R,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,G4_R,GPT-4o / ReAct,GOSS_R,GPT-OSS-120B / ReAct,G4_R>GOSS_R,G4_R>GOSS_R,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,G4_R,GPT-4o / ReAct,GOSS_TC,GPT-OSS-120B / Tool Calling,GOSS_TC>G4_R,GOSS_TC>G4_R,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,G4_TC,GPT-4o / Tool Calling,GOSS_R,GPT-OSS-120B / ReAct,G4_TC>GOSS_R,G4_TC>GOSS_R,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,G4_TC,GPT-4o / Tool Calling,GOSS_TC,GPT-OSS-120B / Tool Calling,GOSS_TC>G4_TC,GOSS_TC>G4_TC,certified,Public report snapshot; Table G.8
+CORRAL_TASK,Corral task success,all_unit_control,GOSS_R,GPT-OSS-120B / ReAct,GOSS_TC,GPT-OSS-120B / Tool Calling,GOSS_TC>GOSS_R,GOSS_TC>GOSS_R,certified,Public report snapshot; Table G.8
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,RANDOM,Random policy,GPUCB,GP-UCB,GPUCB>RANDOM,GPUCB>RANDOM,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,RANDOM,Random policy,ZS46,Zero-shot Sonnet 4.6,ZS46>RANDOM,ZS46>RANDOM,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,RANDOM,Random policy,RFB,Random feedback,RFB>RANDOM,RFB>RANDOM,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,RANDOM,Random policy,ICLEF,ICL with experimental feedback,ICLEF>RANDOM,ICLEF>RANDOM,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,RANDOM,Random policy,ICBREF,ICBR with experimental feedback,ICBREF>RANDOM,ICBREF>RANDOM,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,GPUCB,GP-UCB,ZS46,Zero-shot Sonnet 4.6,ZS46>GPUCB,ZS46>GPUCB,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,GPUCB,GP-UCB,RFB,Random feedback,GPUCB>RFB,GPUCB>RFB,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,GPUCB,GP-UCB,ICLEF,ICL with experimental feedback,ICLEF>GPUCB,ICLEF>GPUCB,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,GPUCB,GP-UCB,ICBREF,ICBR with experimental feedback,ICBREF>GPUCB,ICBREF>GPUCB,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,ZS46,Zero-shot Sonnet 4.6,RFB,Random feedback,ZS46>RFB,ZS46>RFB,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,ZS46,Zero-shot Sonnet 4.6,ICLEF,ICL with experimental feedback,ICLEF>ZS46,ICLEF>ZS46,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,ZS46,Zero-shot Sonnet 4.6,ICBREF,ICBR with experimental feedback,ICBREF>ZS46,ICBREF>ZS46,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,RFB,Random feedback,ICLEF,ICL with experimental feedback,ICLEF>RFB,ICLEF>RFB,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,RFB,Random feedback,ICBREF,ICBR with experimental feedback,ICBREF>RFB,ICBREF>RFB,certified,Table 1
+LABLOOP_46,Lab-in-the-loop Sonnet 4.6 panel,all_unit_control,ICLEF,ICL with experimental feedback,ICBREF,ICBR with experimental feedback,ICBREF>ICLEF,ICBREF>ICLEF,certified,Table 1
+DISCOVERYWORLD,DiscoveryWorld,all_unit_control,REACT,ReAct,PLAN,Plan+Execute,REACT>PLAN,REACT>PLAN,certified,Table 4; Section 4.2
+DISCOVERYWORLD,DiscoveryWorld,all_unit_control,REACT,ReAct,HYPOTH,Hypothesizer,REACT>HYPOTH,REACT>HYPOTH,certified,Table 4; Section 4.2
+DISCOVERYWORLD,DiscoveryWorld,all_unit_control,PLAN,Plan+Execute,HYPOTH,Hypothesizer,HYPOTH>PLAN,HYPOTH>PLAN,certified,Table 4; Section 4.2
+HLER_ABLATION,HLER ablation,all_unit_control,DET_HG,Deterministic processing + human gates,DET_NHG,Deterministic processing + no human gates,DET_HG>DET_NHG,DET_HG>DET_NHG,certified,Table 5
+HLER_ABLATION,HLER ablation,all_unit_control,DET_HG,Deterministic processing + human gates,NDET_HG,No deterministic processing + human gates,DET_HG>NDET_HG,DET_HG>NDET_HG,certified,Table 5
+HLER_ABLATION,HLER ablation,all_unit_control,DET_HG,Deterministic processing + human gates,NDET_NHG,No deterministic processing + no human gates,DET_HG>NDET_NHG,DET_HG>NDET_NHG,certified,Table 5
+HLER_ABLATION,HLER ablation,all_unit_control,DET_NHG,Deterministic processing + no human gates,NDET_HG,No deterministic processing + human gates,DET_NHG>NDET_HG,DET_NHG>NDET_HG,certified,Table 5
+HLER_ABLATION,HLER ablation,all_unit_control,DET_NHG,Deterministic processing + no human gates,NDET_NHG,No deterministic processing + no human gates,DET_NHG>NDET_NHG,DET_NHG>NDET_NHG,certified,Table 5
+HLER_ABLATION,HLER ablation,all_unit_control,NDET_HG,No deterministic processing + human gates,NDET_NHG,No deterministic processing + no human gates,NDET_HG>NDET_NHG,NDET_HG>NDET_NHG,certified,Table 5
+INQUITREE,InquiTree,all_unit_control,O3,o3,DSR1,DeepSeek-R1,O3>DSR1,O3>DSR1,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,O3,o3,GEM25,Gemini 2.5 Pro,O3>GEM25,O3>GEM25,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,O3,o3,C45,Claude 4.5 Sonnet,O3>C45,O3>C45,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,O3,o3,G5L,GPT-5 low reasoning,G5L>O3,G5L>O3,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,O3,o3,G5M,GPT-5 medium reasoning,G5M>O3,G5M>O3,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,O3,o3,G5H,GPT-5 high reasoning,O3>G5H,O3>G5H,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,DSR1,DeepSeek-R1,GEM25,Gemini 2.5 Pro,DSR1>GEM25,DSR1>GEM25,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,DSR1,DeepSeek-R1,C45,Claude 4.5 Sonnet,C45>DSR1,C45>DSR1,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,DSR1,DeepSeek-R1,G5L,GPT-5 low reasoning,G5L>DSR1,G5L>DSR1,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,DSR1,DeepSeek-R1,G5M,GPT-5 medium reasoning,G5M>DSR1,G5M>DSR1,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,DSR1,DeepSeek-R1,G5H,GPT-5 high reasoning,G5H>DSR1,G5H>DSR1,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,GEM25,Gemini 2.5 Pro,C45,Claude 4.5 Sonnet,C45>GEM25,C45>GEM25,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,GEM25,Gemini 2.5 Pro,G5L,GPT-5 low reasoning,G5L>GEM25,G5L>GEM25,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,GEM25,Gemini 2.5 Pro,G5M,GPT-5 medium reasoning,G5M>GEM25,G5M>GEM25,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,GEM25,Gemini 2.5 Pro,G5H,GPT-5 high reasoning,G5H>GEM25,G5H>GEM25,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,C45,Claude 4.5 Sonnet,G5L,GPT-5 low reasoning,G5L>C45,G5L>C45,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,C45,Claude 4.5 Sonnet,G5M,GPT-5 medium reasoning,G5M>C45,G5M>C45,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,C45,Claude 4.5 Sonnet,G5H,GPT-5 high reasoning,G5H>C45,G5H>C45,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,G5L,GPT-5 low reasoning,G5M,GPT-5 medium reasoning,G5L>G5M,G5L>G5M,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,G5L,GPT-5 low reasoning,G5H,GPT-5 high reasoning,G5L>G5H,G5L>G5H,certified,Table 2
+INQUITREE,InquiTree,all_unit_control,G5M,GPT-5 medium reasoning,G5H,GPT-5 high reasoning,G5M>G5H,G5M>G5H,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT4O,GPT-4o direct,GPT41,GPT-4.1 direct,GPT41>GPT4O,GPT41>GPT4O,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT4O,GPT-4o direct,O4MINI,o4-mini direct,O4MINI>GPT4O,O4MINI>GPT4O,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT4O,GPT-4o direct,OH_GPT4O,OpenHands / GPT-4o,GPT4O>OH_GPT4O,GPT4O>OH_GPT4O,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT4O,GPT-4o direct,OH_GPT41,OpenHands / GPT-4.1,GPT4O>OH_GPT41,GPT4O>OH_GPT41,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT4O,GPT-4o direct,OH_O4MINI,OpenHands / o4-mini,GPT4O>OH_O4MINI,GPT4O>OH_O4MINI,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT41,GPT-4.1 direct,O4MINI,o4-mini direct,unresolved,unresolved,displayed_not_strict,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT41,GPT-4.1 direct,OH_GPT4O,OpenHands / GPT-4o,GPT41>OH_GPT4O,GPT41>OH_GPT4O,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT41,GPT-4.1 direct,OH_GPT41,OpenHands / GPT-4.1,GPT41>OH_GPT41,GPT41>OH_GPT41,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,GPT41,GPT-4.1 direct,OH_O4MINI,OpenHands / o4-mini,GPT41>OH_O4MINI,GPT41>OH_O4MINI,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,O4MINI,o4-mini direct,OH_GPT4O,OpenHands / GPT-4o,O4MINI>OH_GPT4O,O4MINI>OH_GPT4O,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,O4MINI,o4-mini direct,OH_GPT41,OpenHands / GPT-4.1,O4MINI>OH_GPT41,O4MINI>OH_GPT41,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,O4MINI,o4-mini direct,OH_O4MINI,OpenHands / o4-mini,O4MINI>OH_O4MINI,O4MINI>OH_O4MINI,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,OH_GPT4O,OpenHands / GPT-4o,OH_GPT41,OpenHands / GPT-4.1,OH_GPT41>OH_GPT4O,OH_GPT41>OH_GPT4O,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,OH_GPT4O,OpenHands / GPT-4o,OH_O4MINI,OpenHands / o4-mini,OH_O4MINI>OH_GPT4O,OH_O4MINI>OH_GPT4O,certified,Table 2
+LMRBENCH,LMR-Bench,all_unit_control,OH_GPT41,OpenHands / GPT-4.1,OH_O4MINI,OpenHands / o4-mini,OH_O4MINI>OH_GPT41,OH_O4MINI>OH_GPT41,certified,Table 2
+DDOS_AGENT,Distributed Denial of Science,all_unit_control,GEMINI,Gemini CLI / Gemini 3.1 Pro,CLAUDE,Claude Code / Claude Opus 4.7,GEMINI>CLAUDE,GEMINI>CLAUDE,certified,Section 4.2; Figure 3
+DDOS_AGENT,Distributed Denial of Science,all_unit_control,GEMINI,Gemini CLI / Gemini 3.1 Pro,CODEX,Codex / GPT-5.5,GEMINI>CODEX,GEMINI>CODEX,certified,Section 4.2; Figure 3
+DDOS_AGENT,Distributed Denial of Science,all_unit_control,CLAUDE,Claude Code / Claude Opus 4.7,CODEX,Codex / GPT-5.5,CLAUDE>CODEX,CLAUDE>CODEX,certified,Section 4.2; Figure 3

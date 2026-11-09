@@ -1,0 +1,13 @@
+stage,category,n,interpretation
+retrieval,unique_query_hits,446,"Unique arXiv records returned by nine fixed queries, 2023-01-01 through 2026-08-26"
+retrieval,citation_chain_additions,7,"Additions recorded separately rather than represented as query hits; four were found through paper-lib forward-citation expansion from controlled-selection and independent-evaluation anchors"
+title_and_known_study_screen,exclude_primary,171,"Clearly outside the primary evidence stream after correcting one title-screen false negative through citation-graph review"
+title_and_known_study_screen,near_neighbor,92,"Relevant to framing or methods but not primary quantitative evidence"
+title_and_known_study_screen,full_text_needed,171,"Insufficient title-level evidence or citation-graph correction; routed to abstract/full-text assessment"
+title_and_known_study_screen,include_existing,16,"Previously full-text-coded studies recovered in the fixed frame or explicit citation additions"
+title_and_known_study_screen,include_new,3,"Newly included studies identified during initial screening"
+abstract_rescreen,records_rescreened,177,"The uncertain query records plus newly identified or citation-graph candidates requiring common abstract coding"
+abstract_rescreen,full_text_priority,103,"Most likely to change a denominator, selection, failure, or validation estimate; includes one corrected false negative and four forward-citation additions"
+abstract_rescreen,full_text_secondary,53,"Potentially relevant but weaker denominator or validation signal"
+abstract_rescreen,near_neighbor,12,"Retained for novelty and scope boundaries"
+abstract_rescreen,exclude_primary,9,"Eight abstracts establish that the record does not evaluate autonomous research outcomes; one additional record has no available paper after author withdrawal"

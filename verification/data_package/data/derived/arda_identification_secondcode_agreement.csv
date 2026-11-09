@@ -1,0 +1,6 @@
+criterion,agreed,total,agreement_rate,cohen_kappa,first_yes,second_yes
+complete_initial_denominator,32,44,0.727273,0.216617,33,37
+all_or_probability_sample_same_standard_validation,30,44,0.681818,0.428571,26,27
+external_or_independent_validator,23,44,0.522727,0.306827,7,19
+validation_targets_scientific_validity,29,44,0.659091,0.493477,13,14
+strict_joint_identification,36,44,0.818182,,3,7

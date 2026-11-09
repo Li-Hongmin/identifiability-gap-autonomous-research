@@ -1,0 +1,24 @@
+panel,evidence_class,study,measure,estimate,low,high,unit
+a,A,LUO2025_AGENTLAB,control,0.785000,,,selection
+a,A,LUO2025_AGENTLAB,manipulated,0.435000,,,selection
+a,A,LUO2025_AISV2,control,0.820000,,,selection
+a,A,LUO2025_AISV2,manipulated,0.315000,,,selection
+b,B,ALETHEIA2026,Expert majority: single_attempt,0.450000,,,problem or attempt
+b,B,ALETHEIA2026,Expert majority: selected_best_of_2,0.600000,,,problem or attempt
+b,B,ALETHEIA2026,Strict sensitivity: single_attempt,0.400000,,,problem or attempt
+b,B,ALETHEIA2026,Strict sensitivity: selected_best_of_2,0.500000,,,problem or attempt
+c,C,MLAGENTBENCH2024,fails to improve baseline by more than 10%,0.789835,0.758757,0.817871,model-task trial
+c,B,BEEL2025,incorrect or hallucinated numerical results,0.571429,0.250458,0.841780,generated manuscript
+c,B,ALETHEIA2026,no majority-valid solution,0.550000,0.342085,0.741802,problem-agent attempt
+c,C,AISCIENTIST2024,does not yield compilable paper,0.529221,0.489744,0.568335,generated idea
+c,C,CAWM2026,correct answer with wrong mechanism,0.200000,0.080658,0.416017,episode
+c,C,NEXTLLM2026,false-positive configuration fails on next eligible model,0.739130,0.535300,0.874514,selected hackable model-configuration cell
+c,A,DDoS2026,poisoned evidence reaches an uncaveated undetected conclusion,0.495556,0.449594,0.541592,independent attacked run
+c,B,SCICOQA2026,known real discrepancy missed by the best tested validator,0.532609,0.431405,0.631199,ascertained real discrepancy
+d,D,AUTORESEARCH2026,uncorrected self-aware flaw,0.825,,,trajectory
+d,D,AUTORESEARCH2026,overclaim,0.7813,,,trajectory
+d,D,AUTORESEARCH2026,method-conclusion disconnect,0.775,,,trajectory
+d,D,AUTORESEARCH2026,implementation discrepancy,0.7213,,,trajectory
+d,D,CORRAL2026,fixed belief trace,0.7124,,,annotated trace
+d,D,CORRAL2026,evidence non-uptake,0.6769,,,annotated trace
+d,D,CORRAL2026,untested claim,0.5267,,,annotated trace

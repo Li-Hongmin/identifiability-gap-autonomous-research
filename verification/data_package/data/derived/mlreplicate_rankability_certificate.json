@@ -1,0 +1,236 @@
+{
+  "schema": "rankability-certificate/0.1",
+  "study": "MLReplicate",
+  "source_anchor": "arXiv:2605.16616v1 Figures 2--3",
+  "target": {
+    "task_frame": "the same eight source papers for each of six configured systems",
+    "endpoint": "mean normalized external-human overall score per targeted attempt",
+    "score_range": [
+      0,
+      1
+    ],
+    "policy_budget_compatibility": "systems target the same papers and endpoint, but models, implementations, and resource use differ; comparisons concern evaluated configurations only"
+  },
+  "observation_process": {
+    "initiated_units": 48,
+    "initiated_units_per_system": 8,
+    "failure_and_no_output_rule": "failed experiments receive score zero; completed but unreviewed manuscripts remain in [0,1]",
+    "selection_rule": "minimum-page screen followed by three-model automated acceptance",
+    "evaluation_rule": "three external human scores only for the ten automated acceptances",
+    "evaluation_probability": "not a probability sample; inclusion depends on the selection pipeline",
+    "validator_calibration": "not identified for latent scientific truth; certificate targets the reported human-review endpoint"
+  },
+  "selected_only_order": {
+    "systems_with_selected_human_observations": [
+      "CR",
+      "AL",
+      "TS",
+      "AIR"
+    ],
+    "order": [
+      "CR",
+      "AL",
+      "TS",
+      "AIR"
+    ],
+    "missing_score_sensitivity": "the single missing AL score cannot change this selected-only order"
+  },
+  "identified_sets": [
+    {
+      "system_code": "AIS1",
+      "system": "AI Scientist v1",
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    {
+      "system_code": "AIS2",
+      "system": "AI Scientist v2",
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    {
+      "system_code": "AL",
+      "system": "Agent Laboratory",
+      "lower": 0.15,
+      "upper": 0.441667
+    },
+    {
+      "system_code": "AIR",
+      "system": "AI Researcher",
+      "lower": 0.0,
+      "upper": 0.75
+    },
+    {
+      "system_code": "CR",
+      "system": "CycleResearcher",
+      "lower": 0.116667,
+      "upper": 0.741667
+    },
+    {
+      "system_code": "TS",
+      "system": "Tiny Scientist",
+      "lower": 0.025,
+      "upper": 0.775
+    }
+  ],
+  "pairwise_relations": [
+    {
+      "system_i": "AIS1",
+      "system_j": "AIS2",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.000000",
+      "U_j": "1.000000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIS1",
+      "system_j": "AL",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.150000",
+      "U_j": "0.441667",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIS1",
+      "system_j": "AIR",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.000000",
+      "U_j": "0.750000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIS1",
+      "system_j": "CR",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.116667",
+      "U_j": "0.741667",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIS1",
+      "system_j": "TS",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.025000",
+      "U_j": "0.775000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIS2",
+      "system_j": "AL",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.150000",
+      "U_j": "0.441667",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIS2",
+      "system_j": "AIR",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.000000",
+      "U_j": "0.750000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIS2",
+      "system_j": "CR",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.116667",
+      "U_j": "0.741667",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIS2",
+      "system_j": "TS",
+      "L_i": "0.000000",
+      "U_i": "1.000000",
+      "L_j": "0.025000",
+      "U_j": "0.775000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AL",
+      "system_j": "AIR",
+      "L_i": "0.150000",
+      "U_i": "0.441667",
+      "L_j": "0.000000",
+      "U_j": "0.750000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AL",
+      "system_j": "CR",
+      "L_i": "0.150000",
+      "U_i": "0.441667",
+      "L_j": "0.116667",
+      "U_j": "0.741667",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AL",
+      "system_j": "TS",
+      "L_i": "0.150000",
+      "U_i": "0.441667",
+      "L_j": "0.025000",
+      "U_j": "0.775000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIR",
+      "system_j": "CR",
+      "L_i": "0.000000",
+      "U_i": "0.750000",
+      "L_j": "0.116667",
+      "U_j": "0.741667",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "AIR",
+      "system_j": "TS",
+      "L_i": "0.000000",
+      "U_i": "0.750000",
+      "L_j": "0.025000",
+      "U_j": "0.775000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    },
+    {
+      "system_i": "CR",
+      "system_j": "TS",
+      "L_i": "0.116667",
+      "U_i": "0.741667",
+      "L_j": "0.025000",
+      "U_j": "0.775000",
+      "strict_order_identified": "no",
+      "relation": "incomparable"
+    }
+  ],
+  "certified_directed_edges": [],
+  "summary": {
+    "possible_unordered_pairs": 15,
+    "identified_strict_orders": 0,
+    "leaderboard_status": "unsupported as a total order under assumption-free missing-score bounds",
+    "certification_qualification": "complete-run retention is an algebraic control rather than independent evidence of scientific validity; certified orders hold only for the realized endpoint (which may be a proxy); finite-sample strict orders may be practically small or statistically uncertain"
+  },
+  "certification_qualification": "complete-run retention is an algebraic control rather than independent evidence of scientific validity; certified orders hold only for the realized endpoint (which may be a proxy); finite-sample strict orders may be practically small or statistically uncertain"
+}

@@ -1,0 +1,75 @@
+name: verify
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Python dependencies
+        run: pip install numpy==2.5.4 matplotlib==3.10.3
+      - name: Prepare a fresh working copy
+        run: cp -r verification work
+      - name: Restore the archived original of the translated file(s) from Zenodo (they are covered by the hashes)
+        working-directory: work
+        run: |
+          curl -sSfL -o /tmp/s.zip 'https://zenodo.org/records/24054530/files/supplement.zip?download=1'
+          echo '2d764f3705949436d33477e5a5d2a6d2b8510a158d85062bbccdd601e77ff55b  /tmp/s.zip' | sha256sum -c -
+          unzip -o -q /tmp/s.zip data_package/data/derived/autonomous_research_evaluation_screening_merged.csv -d .
+      - name: SHA-256 check of the supplement
+        working-directory: work
+        run: sha256sum -c --quiet CONTENTS.sha256
+      - name: "Re-derives every reported count and checks Propositions 1-3 numerically"
+        working-directory: work
+        env: {OPENBLAS_NUM_THREADS: '1', OMP_NUM_THREADS: '1'}
+        run: |
+          set -eo pipefail
+          python independent_checks.py | tee out.txt && grep -q 'all checks passed' out.txt
+      - name: "Second-coding comparison"
+        working-directory: work
+        env: {OPENBLAS_NUM_THREADS: '1', OMP_NUM_THREADS: '1'}
+        run: |
+          set -eo pipefail
+          cd data_package && python analysis/compare_arda_identification_secondcoding.py
+      - name: "Adjudication of coding disagreements"
+        working-directory: work
+        env: {OPENBLAS_NUM_THREADS: '1', OMP_NUM_THREADS: '1'}
+        run: |
+          set -eo pipefail
+          cd data_package && python analysis/adjudicate_arda_identification_coding.py
+      - name: "Validator endpoint reach"
+        working-directory: work
+        env: {OPENBLAS_NUM_THREADS: '1', OMP_NUM_THREADS: '1'}
+        run: |
+          set -eo pipefail
+          cd data_package && python analysis/analyze_arda_validator_endpoint_reach.py
+      - name: "Finite-design identified sets"
+        working-directory: work
+        env: {OPENBLAS_NUM_THREADS: '1', OMP_NUM_THREADS: '1'}
+        run: |
+          set -eo pipefail
+          cd data_package && python analysis/make_identification_bounds.py
+      - name: "Cross-benchmark rankability audit"
+        working-directory: work
+        env: {OPENBLAS_NUM_THREADS: '1', OMP_NUM_THREADS: '1'}
+        run: |
+          set -eo pipefail
+          cd data_package && python analysis/build_cross_benchmark_rankability_audit.py
+      - name: "Validation of the public data package"
+        working-directory: work
+        env: {OPENBLAS_NUM_THREADS: '1', OMP_NUM_THREADS: '1'}
+        run: |
+          set -eo pipefail
+          cd data_package && python analysis/validate_public_data_package.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-output
+          path: work/
+          retention-days: 14

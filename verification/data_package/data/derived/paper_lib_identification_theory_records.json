@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Nonparametric Bounds on Treatment Effects",
+    "authors": ["Charles F. Manski"],
+    "year": 1990,
+    "url": "https://www.jstor.org/stable/2006592",
+    "source": "Crossref title search and American Economic Review bibliographic record",
+    "search_date": "2026-08-26"
+  },
+  {
+    "title": "Confidence Intervals for Partially Identified Parameters",
+    "authors": ["Guido W. Imbens", "Charles F. Manski"],
+    "year": 2004,
+    "doi": "10.1111/j.1468-0262.2004.00555.x",
+    "semantic_scholar_id": "b66dd6a32e93c70b23794dea97248d7ca4c36a40",
+    "abstract": "A growing body of research studies inference on parameters that are partially identified. The paper develops confidence intervals that account separately for sampling uncertainty and the width of the identification region.",
+    "url": "https://doi.org/10.1111/j.1468-0262.2004.00555.x",
+    "source": "Crossref and Semantic Scholar",
+    "search_date": "2026-08-26"
+  },
+  {
+    "title": "Training, Wages, and Sample Selection: Estimating Sharp Bounds on Treatment Effects",
+    "authors": ["David S. Lee"],
+    "year": 2009,
+    "doi": "10.1111/j.1467-937x.2009.00536.x",
+    "openalex_id": "W2890543633",
+    "abstract": "This paper develops an intuitive trimming procedure for bounding average treatment effects in the presence of nonrandom sample selection and attrition, and presents identification results, estimators, and asymptotic distributions.",
+    "url": "https://doi.org/10.1111/j.1467-937x.2009.00536.x",
+    "source": "Crossref",
+    "search_date": "2026-08-26"
+  },
+  {
+    "title": "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables",
+    "authors": ["Himabindu Lakkaraju", "Jon Kleinberg", "Jure Leskovec", "Jens Ludwig", "Sendhil Mullainathan"],
+    "year": 2017,
+    "doi": "10.1145/3097983.3098066",
+    "openalex_id": "W2745133928",
+    "abstract": "Observed outcomes can be selectively labeled because the labels themselves depend on prior human decisions. The paper develops a framework for evaluating predictive models when labeled cases are not a random sample of the population.",
+    "url": "https://doi.org/10.1145/3097983.3098066",
+    "source": "Crossref",
+    "search_date": "2026-08-26"
+  },
+  {
+    "title": "Estimating Prevalence from the Results of a Screening Test",
+    "authors": ["Walter J. Rogan", "Beth Gladen"],
+    "year": 1978,
+    "doi": "10.1093/oxfordjournals.aje.a112510",
+    "openalex_id": "W2271596670",
+    "abstract": "The positive rate of an imperfect screening test is not the prevalence of the underlying condition; the paper derives the adjustment using test sensitivity and specificity.",
+    "url": "https://doi.org/10.1093/oxfordjournals.aje.a112510",
+    "source": "Crossref",
+    "search_date": "2026-08-26"
+  },
+  {
+    "title": "Partial Identification, Distributional Preferences, and the Welfare Ranking of Policies",
+    "authors": ["Maximilian Kasy"],
+    "year": 2016,
+    "doi": "10.1162/REST_a_00528",
+    "semantic_scholar_id": "132aa30a3460994eb4cf7a06d8a6d43fd43771e5",
+    "openalex_id": "W1985641063",
+    "abstract": "The paper studies rankings of counterfactual policies when treatment effects are partially identified and shows that the identified ranking depends on the identifying assumptions, feasible policy set, and distributional preferences.",
+    "url": "https://doi.org/10.1162/REST_a_00528",
+    "source": "Crossref, OpenAlex, and Semantic Scholar",
+    "search_date": "2026-08-26"
+  }
+]

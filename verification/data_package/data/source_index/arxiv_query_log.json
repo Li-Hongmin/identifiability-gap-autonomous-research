@@ -1,0 +1,55 @@
+{
+  "search_date": "2026-08-26",
+  "date_filter": "submittedDate:[202301010000 TO 202608262359]",
+  "page_size": 100,
+  "queries": {
+    "ai_scientist_singular": "all:\"AI scientist\"",
+    "ai_scientists_plural": "all:\"AI scientists\"",
+    "autonomous_research_agent": "all:\"autonomous research agent\"",
+    "autonomous_science_evaluation": "all:\"autonomous scientific discovery\" AND (all:evaluation OR all:benchmark OR all:failure)",
+    "ml_experimentation_agent": "all:\"machine learning experimentation\" AND (all:agent OR all:LLM)",
+    "scientific_reasoning_agent": "all:\"scientific reasoning\" AND (all:agent OR all:\"language model\")",
+    "ai_research_integrity": "all:\"AI research integrity\"",
+    "ai_generated_research": "all:\"AI-generated research\"",
+    "automated_science_agent": "all:\"automated scientific discovery\" AND (all:agent OR all:LLM)"
+  },
+  "query_stats": {
+    "ai_scientist_singular": {
+      "total_results": 141,
+      "returned": 141
+    },
+    "ai_scientists_plural": {
+      "total_results": 143,
+      "returned": 143
+    },
+    "autonomous_research_agent": {
+      "total_results": 26,
+      "returned": 26
+    },
+    "autonomous_science_evaluation": {
+      "total_results": 33,
+      "returned": 33
+    },
+    "ml_experimentation_agent": {
+      "total_results": 4,
+      "returned": 4
+    },
+    "scientific_reasoning_agent": {
+      "total_results": 221,
+      "returned": 221
+    },
+    "ai_research_integrity": {
+      "total_results": 0,
+      "returned": 0
+    },
+    "ai_generated_research": {
+      "total_results": 13,
+      "returned": 13
+    },
+    "automated_science_agent": {
+      "total_results": 44,
+      "returned": 44
+    }
+  },
+  "retrieved_unique_records": 446
+}

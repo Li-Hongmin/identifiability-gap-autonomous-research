@@ -1,0 +1,9 @@
+analysis,category,papers_n,initial_units_n,papers
+validator_separation,author_internal_or_unclear,1,64,arXiv:2604.12144v2
+validator_separation,institutionally_external,2,13,arXiv:2511.13825v1;arXiv:2607.17100v2
+validator_separation,procedurally_separated,5,2210,arXiv:2602.21201v3;arXiv:2603.26177v1;arXiv:2603.27646v1;arXiv:2605.28065v1;arXiv:2606.12848v1
+endpoint_reach,claim_complete,5,1994,arXiv:2602.21201v3;arXiv:2603.26177v1;arXiv:2603.27646v1;arXiv:2604.12144v2;arXiv:2605.28065v1
+endpoint_reach,claim_dimension,3,293,arXiv:2511.13825v1;arXiv:2606.12848v1;arXiv:2607.17100v2
+endpoint_reach,task_proxy,0,0,
+nested_conjunction,procedural_claim_identification,4,1930,arXiv:2602.21201v3;arXiv:2603.26177v1;arXiv:2603.27646v1;arXiv:2605.28065v1
+nested_conjunction,external_claim_identification,0,0,

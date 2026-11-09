@@ -1,0 +1,31 @@
+system_code,system,paper_code,reviewer,score_1_to_6,normalized_score_0_to_1,score_status,source_anchor
+AL,Agent Laboratory,P5,R1,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P5,R2,2,0.200000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P5,R3,2,0.200000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P4,R1,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P4,R2,2,0.200000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P4,R3,2,0.200000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P2,R1,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P2,R2,4,0.600000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P2,R3,,,missing in source figure,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P6,R1,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P6,R2,2,0.200000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P6,R3,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P3,R1,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P3,R2,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+AL,Agent Laboratory,P3,R3,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+AIR,AI Researcher,P5,R1,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+AIR,AI Researcher,P5,R2,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+AIR,AI Researcher,P5,R3,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+CR,CycleResearcher,P3,R1,4,0.600000,observed,arXiv:2605.16616v1 Figure 2
+CR,CycleResearcher,P3,R2,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+CR,CycleResearcher,P3,R3,4,0.600000,observed,arXiv:2605.16616v1 Figure 2
+CR,CycleResearcher,P7,R1,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+CR,CycleResearcher,P7,R2,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+CR,CycleResearcher,P7,R3,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
+TS,Tiny Scientist,P8,R1,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+TS,Tiny Scientist,P8,R2,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+TS,Tiny Scientist,P8,R3,2,0.200000,observed,arXiv:2605.16616v1 Figure 2
+TS,Tiny Scientist,P1,R1,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+TS,Tiny Scientist,P1,R2,1,0.000000,observed,arXiv:2605.16616v1 Figure 2
+TS,Tiny Scientist,P1,R3,3,0.400000,observed,arXiv:2605.16616v1 Figure 2
